@@ -5,7 +5,7 @@ const app = express()
 
 const port =process.env.PORT || 3000
 
-const publicdirpath=path.join(__dirname, '../public')
+const publicdirpath=path.join(__dirname, '../')
 app.set('view engine', 'hbs')
 app.use(express.static(publicdirpath))
 
