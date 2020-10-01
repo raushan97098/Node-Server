@@ -59,6 +59,9 @@ app.get('/register',(req,res)=>{
 app.get('/help',(req,res)=>{
     res.send('Welcome to Help SEction')
 })
+app.get('*',(req,res)=>{
+    res.send('Error 404!')
+})
 
 //const { Mongoose } = require('mongoose')
 //const { error } = require('console')
