@@ -32,4 +32,5 @@ body{
 }
 .register-button{
     text-decoration: none;
+    font-weight : bolder;
 }
